@@ -1,0 +1,115 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.679116,
+                    46.019021,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "LAP001",
+                "styleUrl": "#waypoint",
+                "styleHash": "-441d97ca",
+                "styleMapHash": {
+                    "normal": "#waypoint_n",
+                    "highlight": "#waypoint_h"
+                },
+                "icon": "https://maps.google.com/mapfiles/kml/pal4/icon61.png",
+                "timestamp": "2021-09-09T16:59:26Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.679116,
+                    46.019021,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "2021-09-09T16:59:26.000Z-0",
+                "styleUrl": "#track-none",
+                "styleHash": "1e55b989",
+                "styleMapHash": {
+                    "normal": "#track-none_n",
+                    "highlight": "#track-none_h"
+                },
+                "icon": "https://earth.google.com/images/kml-icons/track-directional/track-none.png",
+                "description": "<table>\n<tr><td>Longitude: 8.679116 </td></tr>\n<tr><td>Latitude: 46.019021 </td></tr>\n<tr><td>Heading: 8.3 </td></tr>\n<tr><td>Time: 2021-09-09T16:59:26Z </td></tr>\n</table>",
+                "timestamp": "2021-09-09T16:59:26Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        8.679116,
+                        46.019021,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Path",
+                "styleUrl": "#lineStyle",
+                "styleHash": "4baf758e",
+                "stroke": "#59acff",
+                "stroke-opacity": 0.6,
+                "stroke-width": 6
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.679116,
+                    46.019021,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "2021-09-09T16:59:26.000Z-0",
+                "styleUrl": "#track-none",
+                "styleHash": "1e55b989",
+                "styleMapHash": {
+                    "normal": "#track-none_n",
+                    "highlight": "#track-none_h"
+                },
+                "icon": "https://earth.google.com/images/kml-icons/track-directional/track-none.png",
+                "description": "<table>\n<tr><td>Longitude: 8.679116 </td></tr>\n<tr><td>Latitude: 46.019021 </td></tr>\n<tr><td>Heading: 8.3 </td></tr>\n<tr><td>Time: 2021-09-09T16:59:26Z </td></tr>\n</table>",
+                "timestamp": "2021-09-09T16:59:26Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        8.679116,
+                        46.019021,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Path",
+                "styleUrl": "#lineStyle",
+                "styleHash": "4baf758e",
+                "stroke": "#59acff",
+                "stroke-opacity": 0.6,
+                "stroke-width": 6
+            }
+        }
+    ]
+}
