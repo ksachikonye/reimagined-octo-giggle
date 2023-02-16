@@ -4,14 +4,17 @@ svg * {
 @media all and (max-width: 250px) {
     #curved_bg { 
 	opacity: 0; 
+	z-index: 15;
     }
     #secondary_content, #primary_content { 
 	fill: #195463; 
+	z-index: 15;
     }
 }
 @media all and (max-width: 200px) {
     #secondary_content {
 	opacity: 0;
+	z-index: 15;
     }
 }
 @media all and (max-width: 150px) {
@@ -26,6 +29,7 @@ svg * {
 	display: inline-block;
 	position: relative;
 	width: 100%;
+	z-index: 15;
 	padding-bottom: 100%; 
 	vertical-align: middle; 
 	overflow: hidden; 
@@ -33,7 +37,11 @@ svg * {
 
 .svg-content { 
 	display: inline-block;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
 	position: absolute;
+	z-index: 15;
 	top: 0;
 	left: 0;
 }
@@ -41,6 +49,10 @@ svg * {
 
 .circle {
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 10px;
   height: 10px;
   top: 50%;
@@ -53,11 +65,17 @@ svg * {
 }
 
 
-
+.g {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;	
+}
 
 
 #anawrapper {
 	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	z-index: 15;
 	max-width: 50%;
 	margin: 0 auto;
 	padding: 0 0;
@@ -72,11 +90,13 @@ svg * {
 	cursor: default;
 }
 #anawrapper svg {
+	z-index: 15;
 	max-height: 100%;
 	width: 50%;
 	margin: 0;
 }
 .gob, .goa{
+	z-index: 15;
 	fill: #72B8FC;
 	opacity: 0.05;
 	-webkit-transition: fill 0.1s ease;
@@ -92,6 +112,7 @@ svg * {
 	font: 14px/16px Trebuchet MS, Helvetica, Arial, sans-serif;
 	display: none;
 	padding: 5px;
+	z-index: 15;
 	max-width: 40%;
 	border: 1px solid #404040;
 	color: #404040;
@@ -107,20 +128,25 @@ svg * {
 #anatip p {
 	margin: 0!important;
 	color: #404040!important;
+	z-index: 15;
 }
 #anatip img {
 	float: left;
 	padding: 3px;
+	z-index: 15;
 }
 @media screen and (max-width: 320px){
 	#anawrapper svg {
 		height:260px;
+		z-index: 15;
 	}
 	#anatip {
 		max-width: 40%;
+		z-index: 15;
 	}
 	#anatip img {
 		max-width: 95%;
+		z-index: 15;
 	}
 }
 @media screen and (max-width: 400px) and (min-width: 321px) {
@@ -142,4 +168,114 @@ svg * {
 	#anawrapper svg {
 		height:700px;
 	}
+}
+
+.head {
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400;
+  -webkit-animation: draw 5s infinite alternate;
+          animation: draw 5s infinite alternate;
+}
+
+.head {
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400;
+  -webkit-animation: draw 5s infinite alternate;
+          animation: draw 5s infinite alternate;
+}
+
+.head {
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400;
+  -webkit-animation: draw 5s infinite alternate;
+          animation: draw 5s infinite alternate;
+}
+
+.right-eye {
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400;
+  -webkit-animation: draw 5s infinite alternate;
+          animation: draw 5s infinite alternate;
+}
+
+.right-ear {
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400;
+  -webkit-animation: draw 5s infinite alternate;
+          animation: draw 5s infinite alternate;
+}
+
+.mouth {
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400;
+  -webkit-animation: draw 5s infinite alternate;
+          animation: draw 5s infinite alternate;
+}
+
+.chest{
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400;
+  -webkit-animation: draw 5s infinite alternate;
+          animation: draw 5s infinite alternate;
+}
+
+.abdomen {
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400;
+  -webkit-animation: draw 5s infinite alternate;
+          animation: draw 5s infinite alternate;
+}
+
+.right-shoulder {
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400;
+  -webkit-animation: draw 5s infinite alternate;
+          animation: draw 5s infinite alternate;
+}
+
+.right-forearm {
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400;
+  -webkit-animation: draw 5s infinite alternate;
+          animation: draw 5s infinite alternate;
+}
+
+
+.right-hand {
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400;
+  -webkit-animation: draw 5s infinite alternate;
+          animation: draw 5s infinite alternate;
+}
+
+.right-thigh {
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400;
+  -webkit-animation: draw 5s infinite alternate;
+          animation: draw 5s infinite alternate;
+}
+
+.right-foot {
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400;
+  -webkit-animation: draw 5s infinite alternate;
+          animation: draw 5s infinite alternate;
+}
+
+@-webkit-keyframes draw {
+  from {
+    stroke-dashoffset: 400;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes draw {
+  from {
+    stroke-dashoffset: 400;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
 }
