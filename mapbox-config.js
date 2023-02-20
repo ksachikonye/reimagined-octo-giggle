@@ -1,22 +1,22 @@
 var config = {
   style: "mapbox://styles/labs-sandbox/cle6ecgky007t01lja19luc67",
   accessToken:
-    "pk.eyJ1IjoiY2hyaXN3aG9uZ21hcGJveCIsImEiOiJjbDl6bzJ6N3EwMGczM3BudjZmbm5yOXFnIn0.lPhc5Z5H3byF_gf_Jz48Ug",
+    "pk.eyJ1IjoiY2hvbWJvY2hpbm9rb3NvcmFtb3RvIiwiYSI6ImNsYWIzNzN1YzA5M24zdm4xb2txdXZ0YXQifQ.mltBkVjXA6LjUJ1bi7gdRg",
   showMarkers: false,
   theme: "dark",
   alignment: "left",
-  title: "Scrollytelling with Mapbox Example",
-  subtitle: "A low-code template to help you tell your map-based story",
-  footer: "Sources: U.S. Census Bureau, American Community Survey, Max Planck Institute for Ornithology, USDA National Agricultural Statistics Service",
+  title: "",
+  subtitle: "",
+  footer: "",
   chapters: [
     {
-      id: "county-circles-1",
-      title: "What does this template do?",
-      image: "https://cdn.glitch.com/b42de0da-ef6b-4756-9c86-4c46809f1380%2Fmapbox-logo-white.png?v=1571949196003",
+      id: "jamaica-kingston",
+      title: " 6 Tremaine Road, Kingston, Jamaica",
+      image: "",
       description:
         "An approach to interactive storytelling, where the graphics unfold as the user scrolls through the story, is known as “scrollytelling”. The scrollytelling template was designed and built to accelerate the process of creating a map-based story. ",
       location: {
-        center: [-97.061, 38.39659],
+        center: [-76.77214565856042, 18.006758676377146],
         zoom: 3.3,
         pitch: 0.0,
         bearing: 0.0
@@ -35,13 +35,13 @@ var config = {
       ]
     },
     {
-      id: "county-circles-2",
-      title: "Control the map",
+      id: "usa-sprinters",
+      title: "Hughes Stadium: The Night of Speed",
       image: "",
       description:
         "Zoom, pan, tilt, and rotate the map to higlight the geographic area related to this part of your story.",
       location: {
-        center: [-80.70604, 36.22582],
+        center: [-121.48652, 38.541],
         zoom: 5.7,
         pitch: 60.0,
         bearing: 0.0
@@ -60,13 +60,13 @@ var config = {
       ]
     },
     {
-      id: "county-polys-1",
-      title: "Change the layers",
+      id: "great-britain",
+      title: "Crystal Palace",
       image: "",
       description:
         "If you have set up custom map data in Mapbox Studio, there are also settings to control which map layers to show and hide.",
       location: {
-        center: [-80.70604, 36.22582],
+        center: [-0.06746165952518775, 51.42122183293816],
         zoom: 5.7,
         pitch: 60.0,
         bearing: 0.0
@@ -85,13 +85,13 @@ var config = {
       ]
     },
     {
-      id: "freedom-1",
-      title: "Layer support",
+      id: "toronto-burning",
+      title: "Toronto is Broken",
       image: "",
       description:
         "This template supports circle, line, fill, symbol, fill-extrusion, and raster layers.",
       location: {
-        center: [-81.38123, 35.85894],
+        center: [-79.3832, 43.6532],
         zoom: 7.51,
         pitch: 60.0,
         bearing: 38.4
@@ -110,13 +110,13 @@ var config = {
       ]
     },
     {
-      id: "raster-1",
-      title: "Your data and Mapbox data",
+      id: "italian-team",
+      title: "Stade Ferrucio made me hardcore",
       image: "",
       description:
         "You can control any data in your Studio style, including base map layers. Shown in green are national park areas.",
       location: {
-        center: [-107.061, 38.39659],
+        center: [8.43484052925938, 44.27829747376744],
         zoom: 7,
         pitch: 60.0,
         bearing: 0
@@ -135,13 +135,13 @@ var config = {
       ]
     },
     {
-      id: "raster-2",
-      title: "Guide your reader's eye",
+      id: "portuguese-team",
+      title: "Sport Lisboa e Benfica",
       image: "",
       description:
         "We also built a page to help find location coordinates and set up the best \"camera angle\" to showcase a location. Find the helper at <a href='https://demos.mapbox.com/location-helper/'>https://demos.mapbox.com/location-helper/</a>.",
       location: {
-        center: [-119.55048, 36.03344],
+        center: [-9.184782451990381, 38.7528892760733],
         zoom: 11.1,
         pitch: 55.5,
         bearing: -115.2
